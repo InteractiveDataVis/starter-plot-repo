@@ -1,0 +1,19 @@
+{
+  "name": "starter-plot-repo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "author": "Ellie Frymire (efrymire)",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@observablehq/plot": "^0.6.17",
+    "d3": "^7.9.0"
+  },
+  "devDependencies": {
+    "vite": "^7.2.7"
+  }
+}

@@ -1,0 +1,47 @@
+/* You can import google fonts with css's @import url() to customize your font */
+@import url('https://fonts.googleapis.com/css2?family=BBH+Bogle:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #5c5c88;
+  color: #eee;
+}
+
+main {
+  text-align: center;
+}
+
+h1 {
+  font-family: 'BBH Bogle', sans-serif;
+  font-size: 2.5rem;
+  font-weight: 300;
+  margin-bottom: 2rem;
+}
+
+h2 {
+  font-family: 'BBH Bogle', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 300;
+  margin-bottom: 1rem;
+}
+
+.main-body { 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  width: 75%;
+  margin: 0 auto;
+}
