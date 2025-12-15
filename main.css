@@ -36,12 +36,31 @@ h2 {
   margin-bottom: 1rem;
 }
 
+.page-nav {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.page-nav a {
+  padding: 0.5rem 1.25rem;
+  background: rgba(255, 255, 255, 0.1);
+  color: #eee;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background 0.2s;
+}
+
+.page-nav a:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
 .main-body { 
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   gap: 3rem;
-  width: 75%;
   margin: 0 auto;
 }
