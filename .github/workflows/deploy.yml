@@ -19,7 +19,7 @@ jobs:
         with:
           node-version: 20
 
-      - run: npm install --include=dev
+      - run: npm ci
       - run: npm run build
 
       - uses: actions/configure-pages@v4
