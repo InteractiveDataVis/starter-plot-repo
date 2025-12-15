@@ -2,9 +2,11 @@
   "name": "starter-plot-repo",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build"
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "author": "Ellie Frymire (efrymire)",
   "license": "ISC",
